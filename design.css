@@ -130,9 +130,10 @@ body{
     transition: all 0.5s ease;
 }
 
-#focim{
+.focim{
     background: linear-gradient(to right, rgb(0, 0, 129), rgb(163, 47, 47), rgb(214, 20, 244));
     background: -webkit-linear-gradient(to right, rgb(0, 0, 129), rgb(163, 47, 47), rgb(214, 20, 244));
+    color: white;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -183,4 +184,13 @@ h3,h3,p,li{
     margin-right: 25px;
     margin-bottom: 10px;
     text-align: justify;
+}
+
+.fodoboz {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
