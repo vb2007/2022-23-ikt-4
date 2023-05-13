@@ -1,7 +1,10 @@
 body{
-    background-color: rgb(12, 22, 46);
-    padding: 0;
-    margin: 0;
+    background: rgb(30,24,125);
+    background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
+
+    border-radius: 13px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
 }
 
 #nav{
@@ -186,11 +189,16 @@ h3,h3,p,li{
     text-align: justify;
 }
 
+.wrapper{
+    display: flex;
+}
+
 .fodoboz {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;
     margin-left: auto;
     margin-right: auto;
+    width: 30%;
+    height: 300px;
 }
