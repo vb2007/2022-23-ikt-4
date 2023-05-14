@@ -1,9 +1,14 @@
 
-#nav{
+.nav{
   /*<nav> tag beállításai.*/
-  background: rgba(79, 72, 255, 0.506);
-  height: 50px;
+  transition: all 0.5s; /* (Részben) felelős a görgetett verzióba- és -ból animálásba */
+
+  background-color: rgba(79, 72, 255, 0.5);
+  height: 65px;
+  width: 100%;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
@@ -31,6 +36,8 @@
 
 #nav_cim{
   /*Beállítja a jobb felső oldalon található (navugációs bár) cím színét és tulajdonságait.*/
+  transition: opacity 0.5s;
+  
   background-color: rgb(0, 228, 198);
   background-image: linear-gradient(to top, rgb(17, 185, 218) 0%, rgb(119, 0, 255) 80%);
   -webkit-text-stroke: 0.2px rgb(255, 255, 255);
@@ -81,4 +88,21 @@
   padding-bottom: 0;
   padding-left: 1rem;
   width: 100%;
+}
+
+/* ===== Scriptek által kezelt class-ok ======================================================== */
+
+.nav_gorgetett {
+  background-color: black;
+  height: 30px;
+  width: calc(100vw - 75px);
+  border-radius: 0 0 15px 15px;
+}
+
+.nav_gorgetett #nav_cim {
+  opacity: 0;
+  /*  Eredetileg teljesen el is akartam tűntetni a logót, és akkor középen lennének a linkek,
+      de HTML-ben elemek automatikus pozícióját animálni nagyon bonyolult, és iszonyatosan
+      átláthatatlan kódja lesz, ezért csak leúsztatom ¯\_(ツ)_/¯
+  */
 }

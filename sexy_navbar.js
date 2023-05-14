@@ -1,5 +1,5 @@
-const SCROLL_THRESHOLD = 69; // px
-const NAV = document.getElementById("nav");
+const SCROLL_THRESHOLD = 100; // px
+const NAV = document.getElementsByClassName("nav")[0];
 const COLOR_CHANGE_DURATION = 500; // ms
 const COLOR_CHANGE_INTERVAL = 16; // ms
 const ALPHA_CHANGE_STEP = 1 / (COLOR_CHANGE_DURATION / COLOR_CHANGE_INTERVAL);
@@ -9,19 +9,10 @@ let navColorStart;
 let navColorEnd;
 
 window.addEventListener('scroll', function() {
-  if (window.scrollY >= SCROLL_THRESHOLD && navColor === "blue") {
-    navColor = "red";
-    navAlpha = 0;
-    navColorStart = performance.now();
-    navColorEnd = navColorStart + COLOR_CHANGE_DURATION;
-    requestAnimationFrame(updateNavColor);
-  } else if (window.scrollY < SCROLL_THRESHOLD && navColor === "red") {
-    navColor = "blue";
-    navAlpha = 0;
-    navColorStart = performance.now();
-    navColorEnd = navColorStart + COLOR_CHANGE_DURATION;
-    requestAnimationFrame(updateNavColor);
+  if (this.window.scrollY >= SCROLL_THRESHOLD) {
+    NAV.classList.add("nav_gorgetett");
   }
+  else NAV.classList.remove("nav_gorgetett");
 });
 
 function updateNavColor(timestamp) {

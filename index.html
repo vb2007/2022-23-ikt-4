@@ -10,7 +10,7 @@
 </head>
 <body>
     <!--Felső navigáviós terület-->
-    <nav id="nav">
+    <nav class="nav"> <!-- Az id felülírja a class-t (így nem lehetne a `nav_gorgetett` script class-al stílusolni), így ennek is class-nak kell -->
         <div id="nav_doboz">
             <a href="index.html" id="nav_cim">Szkennerek</a>
             <ul id="nav_menu">
@@ -51,5 +51,7 @@
     <footer>
         <h6 id="footer">Vágvölgyi Balázs, Paál Donát, Kiss Barnabás - 2023</h6>
     </footer>
+
+    <script src="sexy_navbar.js"></script>
 </body>
 </html>
