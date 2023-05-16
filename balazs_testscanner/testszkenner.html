@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="design.css">
-    <link rel="stylesheet" href="_scrip_css/navbar.css">
+    <link rel="stylesheet" href="/_scrip_css/navbar.css">
     <title>Testszkenner</title>
 </head>
 <body>
     <!--Felső navigáviós terület-->
-    <nav id="nav">
+    <nav class="nav"> <!-- Az id felülírja a class-t (így nem lehetne a `nav_gorgetett` script class-al stílusolni), így ennek is class-nak kell -->
         <div id="nav_doboz">
-            <a href="index.html" id="nav_cim">Szkennerek</a>
+            <a href="/index.html" id="nav_cim">Szkennerek</a>
             <ul id="nav_menu">
                 <li class="nav_elem">
                     <a href="/index.html" id="home" class="nav_link">Főoldal</a>
                 </li>
                 <li class="nav_elem">
-                    <a href="index.html" id="home" class="nav_link">Mi lehet szkenner?</a>
+                    <a href="/donat_mi_lehet_scanner/index.htm" id="home" class="nav_link">Mi lehet szkenner?</a>
                 </li>
                 <li class="nav_elem">
-                    <a href="index.html" id="home" class="nav_link">Lapolvasás mobilon</a>
+                    <a href="/barnabas_lapolvasas_mobilon/szoftverek.html" id="home" class="nav_link">Lapolvasás mobilon</a>
                 </li>
                 <li class="nav_elem">
-                    <a href="index.html" id="home" class="nav_link">Testszkenner</a>
+                    <a href="/balazs_testscanner/testszkenner.html" id="home" class="nav_link">Testszkenner</a>
                 </li>
                 <!--<li class="nav_gomb">
                     <a href="pages/login.html" id="login" class="nav_link">Log In</a>
@@ -97,7 +97,7 @@
         <p id="footer">Vágvölgyi Balázs - 2023</p>
     </footer>
     <!--Scriptek importálása (az oldal aján, hogy ne a full html kód előtt legyen telespammelve a konzol hibával)-->
-    <script src="iconupdate.js"></script>
-    <script src="sexy_navbar.js"></script>
+    <script src="/_scrip_css/iconupdate.js"></script>
+    <script src="/_scrip_css/sexy_navbar.js"></script>
 </body>
 </html>
