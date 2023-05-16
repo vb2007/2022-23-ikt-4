@@ -1,0 +1,83 @@
+/* A főoldal dizájnja. Az egyéb elemek (amik mindenhol megjelennek)
+A "_script_css" mappában vannak. */
+
+body{
+    margin: 0;
+
+    background: rgb(30,24,125);
+    background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
+
+    border-radius: 13px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.focim{
+    background: linear-gradient(to right, rgb(0, 0, 129), rgb(163, 47, 47), rgb(214, 20, 244));
+    background: -webkit-linear-gradient(to right, rgb(0, 0, 129), rgb(163, 47, 47), rgb(214, 20, 244));
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    margin-top: 30px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#focim_szoveg{
+    
+}
+
+.fo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+#footer{
+    color: rgb(252, 237, 210);
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px, 50px;
+    background-color: rgb(24, 19, 81);
+    border-radius: 3px;
+}
+
+.tartalom{
+    background: rgba(79, 72, 255, 0.506);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0px;
+    border-radius: 5px;
+    z-index: 999;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h3,h3,p,li{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.fodoboz {
+    display: grid;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 300px;
+}
