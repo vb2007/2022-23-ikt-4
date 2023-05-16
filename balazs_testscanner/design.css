@@ -4,8 +4,21 @@ body{
     margin: 0;
 }
 
+#focim{
+    background-image: url(kepek/focim_bg.jpg);
+    background-size:cover;
+    height: 550px;
+    width: auto;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    z-index: 1;
+}
+
 #focim_szoveg{
-    
+    color: white;
+    text-align: center;
+    padding-top: 122px;
+    font-size: 300%;
 }
 
 .fo{
