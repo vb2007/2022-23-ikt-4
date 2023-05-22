@@ -4,6 +4,8 @@ A "_script_css" mappában vannak. */
 body{
     margin: 0;
 
+    font-family: Arial, Helvetica, sans-serif;
+
     background: rgb(30,24,125);
     background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
 
