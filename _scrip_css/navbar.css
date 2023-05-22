@@ -58,6 +58,11 @@
   list-style: none;
 }
 
+.nav_elem {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
 .nav_link{
   /*<a> tagben lévő linkekre van kihatással. Dizájnt ad a gomboknak
   és helyet hagy ki köztük*/
