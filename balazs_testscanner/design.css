@@ -40,7 +40,7 @@ body{
 }
 
 .tartalom{
-    background: rgba(79, 72, 255, 0.506);
+    background: rgba(123, 109, 255, 0.506);
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -51,10 +51,39 @@ body{
     margin-right: 150px;
 }
 
-h3,h3,p,li{
-    margin-top: 10px;
+h2,p,figcaption{
+    margin-top: 18px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     text-align: justify;
+    color: white;
+    padding: 7px;
+    word-spacing: 5px;
+}
+
+h3{
+    background-color: rgba(160, 150, 250, 0.506);
+    font-size: 120%;
+    padding-left: 12px;
+    width: 65%;
+    height: 26px;
+    color: white;
+    border-radius: 13px;
+    padding: 12px 12px;
+    margin-left: 20px;
+}
+
+li, ol{
+    word-spacing: 10px;
+    color: white;
+    margin-left: 25px;
+}
+
+#kep1{
+
+}
+
+#kep2{
+    
 }
