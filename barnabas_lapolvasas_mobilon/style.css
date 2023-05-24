@@ -31,7 +31,7 @@ body {
 }
 
 img {
-    display: block;
+    display: flex;
     border-radius: 13px;
     float: right;
     width: 450px;
@@ -74,7 +74,7 @@ h4 {
 }
 
 .container {
-    display: grid;
+    display: flex;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 30px;

@@ -14,9 +14,29 @@ body{
     border-top-left-radius: 13px;
 }
 
+.fodoboz{
+    display: grid;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 30%;
+    height: 300px;
+    background: linear-gradient(to right, rgb(0, 0, 129), rgb(24, 28, 160), rgb(27, 73, 212));
+    background: -webkit-linear-gradient(to right, rgb(0, 0, 129), rgb(24, 28, 160), rgb(27, 73, 212));
+    border-radius: 5px;
+    outline: 5px;
+    outline-color: black;
+    transition: transform 0.3s ease;
+}
+
+.fodoboz:hover{
+    transform: scale(1.05);
+}
+
 .focim{
-    background: linear-gradient(to right, rgb(0, 0, 129), rgb(163, 47, 47), rgb(214, 20, 244));
-    background: -webkit-linear-gradient(to right, rgb(0, 0, 129), rgb(163, 47, 47), rgb(214, 20, 244));
     color: white;
     height: 50px;
     display: flex;
@@ -29,11 +49,31 @@ body{
     z-index: 1;
 }
 
-.fo{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 330px;
-    margin-right: 330px;
+.foszoveg{
+
+}
+
+#cim_box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#cim_box_h1, #cim_box_p{
+    margin-top: 2px;
+    background-color: rgba(218, 54, 255, 0.534);
+    border-radius: 5px;
+}
+
+#cim{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+#rovid_leiras{
+    text-align: center;
+    font-size: 18px;
+    color: white;
 }
 
 #footer{
@@ -44,6 +84,8 @@ body{
     margin: 10px, 50px;
     background-color: rgb(24, 19, 81);
     border-radius: 3px;
+    margin-bottom: 0%;
+    margin-top: 10%;
 }
 
 .tartalom{
@@ -70,12 +112,6 @@ h3,h3,p,li{
     display: flex;
 }
 
-.fodoboz {
-    display: grid;
-    align-items: center;
-    column-gap: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 300px;
+a{
+
 }

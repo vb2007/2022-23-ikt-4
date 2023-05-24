@@ -6,6 +6,17 @@ body {
     margin: 0;
 }
 
+#cim_box{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cim{
+    text-align: center;
+    color: white;
+}
+
 h2 {
     color: white;
     margin-bottom: 3px;
