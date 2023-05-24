@@ -39,6 +39,7 @@
   background-image: linear-gradient(to top, rgb(17, 185, 218) 0%, rgb(119, 0, 255) 80%);
   -webkit-text-stroke: 0.2px rgb(255, 255, 255);
   background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
