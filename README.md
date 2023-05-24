@@ -1,2 +1,3 @@
-# ikt4
-IKT 4 - Saját -és főoldal
+# IKT Projekt - 4
+Elkészítendő projekt IKT tantárgyból, 9. osztályban.
+4. Projekt
