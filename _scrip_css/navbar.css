@@ -75,6 +75,7 @@
   /*!!!FONTOS - Ezzel lehet állítani a NAV elemek közti szövegek térközét*/
   width: 200px;
   height: 100%;
+  font-size: 20px;
   transition: all 0.5s ease;
 }
 

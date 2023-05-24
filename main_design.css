@@ -38,15 +38,12 @@ body{
 
 .focim{
     color: white;
-    height: 50px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    margin-top: 30px;
-    border-radius: 5px;
-    z-index: 1;
+    font-size: 1.5rem;
+    margin-top: 0px;
 }
 
 .foszoveg{
@@ -113,5 +110,5 @@ h3,h3,p,li{
 }
 
 a{
-
+    text-decoration: none;
 }
