@@ -1,78 +1,122 @@
 body {
-    background-color: #313131;
-    color: #cecece;
+    background: rgb(189,155,249);
+    background: linear-gradient(90deg, rgba(189,155,249,1) 0%, rgba(123,56,242,1) 50%, rgba(30,24,125,1) 100%);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin: 0;
 }
 
-#cim_box{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+#egesz {
+    background: rgb(30,24,125);
+    background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
+    margin: 20px 150px;
+    border-radius: 13px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    padding-bottom: 20px;
 }
 
-#cim{
-    text-align: center;
-    color: white;
+#fo_egyseg {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-h2 {
-    color: white;
-    margin-bottom: 3px;
-    font-size: 36px;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-h3 {
-    color: white;
-    margin-bottom: 15px;
-}
-
-p {
-    margin-top: 0;
-}
-
-p, li {
-    max-width: 75vw;
-    text-align: justify;
-}
-
-li {
-    margin-bottom: 15px;
-}
-
-b {
-    color: white;
+#fejlec_egyseg {
+    background-image: url("../barnabas_lapolvasas_mobilon/forras/outrun-wallpaper-2880x1620_52.jpg");
+    background-size:cover;
+    margin: 0px;
+    height: 550px;
+    width: auto;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
 }
 
 img {
+    display: flex;
+    border-radius: 13px;
+    float: right;
     width: 450px;
-    border-radius: 20px;
 }
 
-#intro {
-    margin-bottom: 15px;
+p {
+    font-size: 115%;
+    line-height: 1.3;
+    max-width: calc(100%-550px);
 }
 
-#camscanner_procon {
-    margin: 0;
+li {
+    font-size: 115%;
+    line-height: 1.3;
+    max-width: calc(100%-550px);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    font-size: 300%;
+}
+
+h2 {
+    background-color: #ceb4fa;
+    font-size: 150%;
+    padding-left: 12px;
+    width: 50%;
+    height: 26px;
+    color: blue;
+    border-radius: 13px;
+    padding: 8px 12px;
+}
+
+h4 {
+    font-size: 130%;
+    line-height: 1.3;
+    max-width: calc(100%-550px);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+footer {
+    background: rgb(30,24,125);
+    background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
+    border-radius: 0 0 15px 15px;
+    padding: 3px;
+    padding-left: 12px;
+    margin-left: 20px;
+    width: calc(100vw - 75px);
+}
+
+a {
+    font-size: 100%;
+    line-height: 1.3;
+    max-width: calc(100%-550px);
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    margin-top: 5px;
 }
 
 .pro {
-    color: #99CB9B;
-}
-
-.pro b {
-    color: #C9FFCB;
+    color: hsl(140, 77%, 76%);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Muszáj ezzel kiemelni, mert a más szín miatt túlságosan beleolvad az oldal jobb oldalán lévő fehér háttérbe */
 }
 
 .con {
-    color: #CB9999;
+    color: hsl(0, 77%, 76%);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-.con b {
-    color: #FFC9C9;
+a:hover {
+    color: lightgrey;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: none;
 }
