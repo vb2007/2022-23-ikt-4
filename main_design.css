@@ -42,11 +42,12 @@ body{
     border-radius: 5px;
     outline: 5px;
     outline-color: black;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease; /* Ezt a rohadt background gradientet nem lehet transition-ölni. Ha nem megy hát nem megy */
 }
 
 .fodoboz:hover{
     transform: scale(1.05);
+    background: linear-gradient(to right, rgb(0, 174, 255), rgb(0, 119, 255), rgb(0, 183, 255));
 }
 
 .focim{
