@@ -91,10 +91,11 @@ footer ul {
 footer {
     background: rgb(30,24,125);
     background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
     padding: 3px;
     padding-left: 12px;
     margin-left: 20px;
+    margin-bottom: 15px;
     width: calc(100vw - 75px);
 }
 
