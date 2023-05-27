@@ -4,6 +4,7 @@ body {
     background: linear-gradient(90deg, rgba(189,155,249,1) 0%, rgba(123,56,242,1) 50%, rgba(30,24,125,1) 100%);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 #egesz {
