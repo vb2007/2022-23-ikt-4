@@ -75,7 +75,7 @@ h3{
     margin-left: 20px;
 }
 
-li, ol{
+main li, main ol{
     word-spacing: 10px;
     color: white;
     margin-left: 25px;
