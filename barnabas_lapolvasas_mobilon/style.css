@@ -42,6 +42,11 @@ p {
     font-size: 115%;
     line-height: 1.3;
     max-width: calc(100%-550px);
+    width: 75%;
+}
+
+ol {
+    width: 75%;
 }
 
 li {
