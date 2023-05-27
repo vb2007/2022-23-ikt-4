@@ -64,27 +64,37 @@ body{
 
 }
 
-#cim_box{
+#cim_box {
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.33);
+    width: 90%;
+    max-width: 1750px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#cim_box_h1, #cim_box_p{
-    margin-top: 2px;
-    background-color: rgba(218, 54, 255, 0.534);
-    border-radius: 5px;
+#cim_box h1, #cim_box p {
+    color: rgba(255, 255, 255, 0.88);
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #cim{
     text-align: center;
     font-size: 55px;
-    color: white;
+    margin: 0;
 }
 
 #rovid_leiras{
     text-align: center;
     font-size: 18px;
-    color: white;
 }
 
 #footer{
