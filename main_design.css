@@ -26,12 +26,22 @@ body{
     margin-right: auto;
 }
 
-.doboz-szoveg {
+.doboz-cim {
     display: block;
     color: white;
-    margin-top: 130px;
+    margin: 0;
+    margin-bottom: 5px;
     font-size: 1.5em;
     text-align: center;
+}
+
+.doboz-leiras {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.doboz-wrapper {
+    padding: 1vw; /* vw-vel kicsit adaptívabb a méretezéshez */
 }
 
 .fodoboz{
@@ -43,6 +53,11 @@ body{
     outline: 5px;
     outline-color: black;
     transition: transform 0.3s ease; /* Ezt a rohadt background gradientet nem lehet transition-ölni. Ha nem megy hát nem megy */
+
+    /* Benne lévő szövegek közpére igazítása (függőlegesen és vízszintesen) */    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fodoboz:hover{
