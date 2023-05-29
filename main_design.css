@@ -3,12 +3,10 @@ A "_script_css" mappában vannak. */
 
 body{
     margin: 0;
-
     font-family: Arial, Helvetica, sans-serif;
-
     background: rgb(30,24,125);
     background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
-
+    bottom: 0;
     border-radius: 13px;
     border-top-right-radius: 13px;
     border-top-left-radius: 13px;
@@ -38,6 +36,7 @@ body{
 .doboz-leiras {
     margin: 0;
     color: rgba(255, 255, 255, 0.66);
+    text-decoration: none;
 }
 
 .doboz-wrapper {
@@ -83,7 +82,6 @@ body{
     background-color: rgba(0, 0, 0, 0.33);
     width: 90%;
     max-width: 1750px;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -109,15 +107,16 @@ hr {
 }
 
 #footer{
-    color: rgb(252, 237, 210);
     font-size: 11px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin: 10px, 50px;
     background-color: rgb(24, 19, 81);
-    border-radius: 3px;
-    margin-bottom: 0%;
-    margin-top: 10%;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: (height_of_footer);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .tartalom{
@@ -132,12 +131,13 @@ hr {
     margin-right: 150px;
 }
 
-h3,h3,p,li{
+h3,p,li{
     margin-top: 10px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 10px;
     text-align: justify;
+    text-decoration: none;
 }
 
 .wrapper{

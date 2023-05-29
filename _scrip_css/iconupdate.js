@@ -1,6 +1,7 @@
 // Jelenlegi ikon eltárolása
 var current = 0;
-var icons = ['https://img.icons8.com/external-mixed-line-solid-yogi-aprelliyanto/512/external-malware-coding-and-programming-mixed-line-solid-yogi-aprelliyanto.png', 'https://img.icons8.com/external-basic-line-gradient-yogi-aprelliyanto/512/external-malware-coding-and-programming-basic-line-gradient-yogi-aprelliyanto.png'];
+var icons = ['https://icons-for-free.com/iconfiles/png/512/scan-131979013378547785.png',
+ 'https://cdn-icons-png.flaticon.com/512/6927/6927609.png'];
 // Ikno cseréje/frissítése fél másodpercenként
 setInterval(function () {
     // Következő ikon beolvasása

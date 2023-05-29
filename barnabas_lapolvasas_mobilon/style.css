@@ -126,7 +126,6 @@ a {
 
 a:hover {
     color: lightgrey;
-    text-decoration: underline;
 }
 
 a:visited {
