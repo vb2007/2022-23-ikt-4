@@ -26,10 +26,23 @@ body {
     background-image: url(forras/outrun-wallpaper-2880x1620_52.jpg);
     background-size:cover;
     margin: 0px;
-    height: 550px;
+    height: 27vw;   
     width: auto;
     border-top-right-radius: 13px;
     border-top-left-radius: 13px;
+
+    /* Benne lévő szöveg közpére igazítása (függőlegesen és vízszintesen) */    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fejlec_egyseg h1 {
+    width: 100%;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 img {
