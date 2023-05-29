@@ -35,8 +35,9 @@ body {
 img {
     display: flex;
     border-radius: 13px;
-    float: right;
-    width: 450px;
+    /* float: right; */
+    width: 20vw;
+    margin-bottom: 2vw;
 }
 
 p {
@@ -49,6 +50,10 @@ li {
     font-size: 115%;
     line-height: 1.3;
     max-width: calc(100%-550px);
+}
+
+.container p, .container ul, .container li {
+    width: calc(100% - (20vw + 10px));
 }
 
 h1 {
