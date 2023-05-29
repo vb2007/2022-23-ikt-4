@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(12, 22, 46);
+    background: linear-gradient(90deg, rgba(189,155,249,1) 0%, rgba(123,56,242,1) 50%, rgba(30,24,125,1) 100%);
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,7 +41,7 @@ body{
 }
 
 .tartalom{
-    background: rgba(123, 109, 255, 0.506);
+    background: linear-gradient(90deg, rgba(30,24,125,1) 0%, rgba(123,56,242,1) 50%, rgba(189,155,249,1) 100%);
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -50,6 +50,7 @@ body{
     z-index: 999;
     margin-left: 150px;
     margin-right: 150px;
+    align-items: baseline;
 }
 
 h2,p,figcaption{
@@ -61,6 +62,10 @@ h2,p,figcaption{
     color: white;
     padding: 7px;
     word-spacing: 5px;
+}
+
+#p3{
+    text-align: left;
 }
 
 h3{
@@ -81,10 +86,22 @@ main li, main ol{
     margin-left: 25px;
 }
 
-#kep1{
+.container{
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 3fr;
+    column-gap: 3px;
+}
 
+#kep1{
+    width: 80%;
 }
 
 #kep2{
-    
+    height: 35%;
+}
+
+img{
+    margin-bottom: 20px;
+    margin-right: 20px;
 }

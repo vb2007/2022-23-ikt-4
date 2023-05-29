@@ -82,7 +82,6 @@
 .nav_link:hover{
   background-color: rgba(0, 170, 255, 0.75);
   color: white;
-  text-decoration: underline;
   padding: 5px 0px;
   border-radius: 15px;
 }
