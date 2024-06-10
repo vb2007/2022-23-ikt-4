@@ -1,4 +1,4 @@
-# Project of the 2022-23th school year, made for "IKT Teamwork" subject
+# 4th project of the 2022-23th school year, made for "IKT Teamwork" subject
 
 ## Archived project
 
