@@ -1,8 +1,8 @@
 # Project of the 2022-23th school year, made for "IKT Teamwork" subject
 
-# Archived project
+## Archived project
 
-<u>This is an archived school project.</u>
+<ins> This is an archived school project. </ins>
 
 This project has been submitted and reviewed. It's not going to get any further updates. Public archive.
 
@@ -14,7 +14,7 @@ The project's original **README**.md file can be viewed [HERE](./README.old.md).
 
 ## Archivált projekt
 
-<u>Ez egy archivált iskolai projekt.</u>
+<ins> Ez egy archivált iskolai projekt. </ins>
 
 Mivel már be lett adva és értékelésre került, nem fog módosulni. Publikus archívum.
 
